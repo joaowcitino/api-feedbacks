@@ -33,7 +33,7 @@ public class AuthorizationConfig {
                         .requestMatchers(HttpMethod.GET,    "/api/feedbacks/**").authenticated()
                         .requestMatchers(HttpMethod.POST,   "/api/feedbacks").authenticated()
                         // só ADMIN pode deletar
-                        .requestMatchers(HttpMethod.DELETE, "/api/feedbacks/**").hasRole("admin")
+                        .requestMatchers(HttpMethod.DELETE, "/api/feedbacks/**").hasRole("ADMIN")
                         // não há outras rotas públicas
                         .anyRequest().denyAll()
                 )
