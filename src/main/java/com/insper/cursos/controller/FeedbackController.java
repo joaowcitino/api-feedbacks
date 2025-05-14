@@ -47,7 +47,7 @@ public class FeedbackController {
 
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    @PreAuthorize("hasRole('admin')")
+    @PreAuthorize("hasRole('ADMIN')")
     public void excluir(@PathVariable String id) {
         service.excluir(id);
     }
