@@ -1,4 +1,4 @@
-package com.example.feedback.exception;
+package com.insper.cursos.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {

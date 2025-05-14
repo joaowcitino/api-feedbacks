@@ -1,13 +1,13 @@
-package br.insper.feedback.feedback;
+package com.insper.cursos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FeedbackApplication {
+public class CursoApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FeedbackApplication.class, args);
+		SpringApplication.run(CursoApiApplication.class, args);
 	}
 
 }
